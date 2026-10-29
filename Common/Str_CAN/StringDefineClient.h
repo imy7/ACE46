@@ -15,7 +15,7 @@
 #define VIETNAM_FONT		"Arial"
 #define CHINA_FONT			"Tahoma"
 
-// 2006-08-24 by dgwoo ¼­¹ö·Î ÅëÇÕ
+// 2006-08-24 by dgwoo ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 // Command
 //#define STRCMD_C_COMMAND_CALL						"/call"
 //#define STRCMD_C_COMMAND_PARTYCALL					"/formcall"
@@ -288,7 +288,7 @@
 #define STRERR_ERROR_0149	"Unidentified error message for IM_DBG : MsgType(0X%X), ErrorCode(0X%X)"
 #define STRERR_ERROR_0150			
 	 
-// 2010. 05. 19 by hsLee ÀÎÇÇ´ÏÆ¼ ÇÊµå 2Â÷ ³­ÀÌµµ Á¶Àý. (½ÅÈ£Ã³¸® + ¸ó½ºÅÍ Ã³¸®(¼­¹ö) )
+// 2010. 05. 19 by hsLee ï¿½ï¿½ï¿½Ç´ï¿½Æ¼ ï¿½Êµï¿½ 2ï¿½ï¿½ ï¿½ï¿½ï¿½Ìµï¿½ ï¿½ï¿½ï¿½ï¿½. (ï¿½ï¿½È£Ã³ï¿½ï¿½ + ï¿½ï¿½ï¿½ï¿½ Ã³ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½) )
 #define STRERR_ERROR_0151	"Can not find any information about setting level of Infinity Field."
 #define STRERR_ERROR_0152	"The information about setting level of Infinity Field is not correct."
 #define STRERR_ERROR_0153	"Can not be the same level."
@@ -498,11 +498,11 @@
 #define STRMSG_C_ITEM_0034		"Range : %dm"
 #define STRMSG_C_ITEM_0035		"Reattack Time: %.2fs"
 #define STRMSG_C_ITEM_0036		"Overheat Time: %.2fs"
-#define STRMSG_C_ITEM_0037		"Valid Angle: %d°"
-#define STRMSG_C_ITEM_0038		"%s\\e[+%.1f°]\\e"
-#define STRMSG_C_ITEM_0039		"%s\\e[%.1f°]\\e"
-#define STRMSG_C_ITEM_0040		"%s\\g[+%.1f°]\\g"
-#define STRMSG_C_ITEM_0041		"%s\\g[%.1f°]\\g"
+#define STRMSG_C_ITEM_0037		"Valid Angle: %dï¿½ï¿½"
+#define STRMSG_C_ITEM_0038		"%s\\e[+%.1fï¿½ï¿½]\\e"
+#define STRMSG_C_ITEM_0039		"%s\\e[%.1fï¿½ï¿½]\\e"
+#define STRMSG_C_ITEM_0040		"%s\\g[+%.1fï¿½ï¿½]\\g"
+#define STRMSG_C_ITEM_0041		"%s\\g[%.1fï¿½ï¿½]\\g"
 #define STRMSG_C_ITEM_0042		"Explosion Radius: %dm"
 #define STRMSG_C_ITEM_0043		"Reaction Radius: %dm"
 #define STRMSG_C_ITEM_0044		"Motion : %.2fs"
@@ -513,8 +513,8 @@
 #define STRMSG_C_ITEM_0049		"Speed : %.0fm/s ~ %.0fm/s"
 #define STRMSG_C_ITEM_0050		"Booster speed : %dm/s"
 #define STRMSG_C_ITEM_0051		"Booster time : %ds"
-#define STRMSG_C_ITEM_0052		"Turn Rate: %.0f°/s"
-#define STRMSG_C_ITEM_0053		"Turn Rate (Booster): %.0f°/s"
+#define STRMSG_C_ITEM_0052		"Turn Rate: %.0fï¿½ï¿½/s"
+#define STRMSG_C_ITEM_0053		"Turn Rate (Booster): %.0fï¿½ï¿½/s"
 #define STRMSG_C_ITEM_0054		"Function : \\g%s/%s"
 #define STRMSG_C_ITEM_0055		"Function : \\g%s"
 #define STRMSG_C_ITEM_0056		"Description: "
@@ -1328,7 +1328,7 @@
 #define STRMSG_C_050805_0003	"%s [Complete]"
 #define STRMSG_C_050809_0001	"You will still be vulnerable to attack. Are you sure you wish to stop?"
 
-// 2006-08-24 by dgwoo ¼­¹ö·Î ÅëÇÕ.
+// 2006-08-24 by dgwoo ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 //#define STRMSG_C_050810_0001	"/Close window"
 //#define STRMSG_C_050810_0002	"/Open window"
 #define STRMSG_C_050810_0003	"\\rClose window has been cancelled.\\r"
@@ -1475,7 +1475,7 @@
 #define STRMSG_C_051209_0001	"\\yBackground information:\\y"
 
 #define STRMSG_C_051215_0100	"Speed : %d m/s"
-#define STRMSG_C_051215_0101	"Induction Rate: %.0f°/s"
+#define STRMSG_C_051215_0101	"Induction Rate: %.0fï¿½ï¿½/s"
 
 #define STRMSG_C_051220_0100	"This account has been bound to the %s nation."
 
@@ -1993,11 +1993,11 @@
 
 #define STRMSG_C_071005_0100   "\\rBecause there are no Brigades available for replacing \\mCentral Process Device\\r, the previous \\mProtector\\y has been recreated. \\mProtector\\r placement map-effect activated: enemies of the \\mProtector\\r have been returned to their nation's capital."
 						   
-// ¹ÙÀÌÁ¦´ÏÀ¯.
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 #define STRMSG_C_071006_0100   "BCU Nation President name"
 #define STRMSG_C_071006_0101   "BCU Nation Vice-President name"
 #define STRMSG_C_071006_0102   "BCU Nation Strategic Officer name"
-// ¾Ë¸µÅÏ.
+// ï¿½Ë¸ï¿½ï¿½ï¿½.
 #define STRMSG_C_071006_0103   "ANI Nation General Commander name"
 #define STRMSG_C_071006_0104   "ANI Nation Deputy Commander name"
 #define STRMSG_C_071006_0105   "ANI Nation Chief of Staff name"
@@ -2175,7 +2175,7 @@
 
 
 #define STRMSG_C_080625_0100 "Would you like to enter %d chat room?"
-/////////////// Ã¤ÆÃÁ¦¸ñÀ» µé¾î°¥ ¹®±¸. /////////////////////////////////
+/////////////// Ã¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½î°¥ ï¿½ï¿½ï¿½ï¿½. /////////////////////////////////
 #define STRMSG_C_080625_0101 "Chat room of %s."
 #define STRMSG_C_080625_0102 "Come on in."
 #define STRMSG_C_080625_0103 "Who would like to chat?"
@@ -2249,9 +2249,9 @@
 #define STRMSG_C_080929_0210	"%.0fm/s"
 #define STRMSG_C_080929_0211	"Decrease Level Requirement."
 #define STRMSG_C_080929_0212	"%.0f m"
-#define STRMSG_C_080929_0213	"%.2f°/s"
-#define STRMSG_C_080929_0214	"[Turn Rate]: %.2f°/s"
-#define STRMSG_C_080929_0215	"[Turn Rate (Booster)]: %.2f°/s"
+#define STRMSG_C_080929_0213	"%.2fï¿½ï¿½/s"
+#define STRMSG_C_080929_0214	"[Turn Rate]: %.2fï¿½ï¿½/s"
+#define STRMSG_C_080929_0215	"[Turn Rate (Booster)]: %.2fï¿½ï¿½/s"
 
 #define STRMSG_C_081013_0200	"Brigade Commander cannot be given to those under level 20."
 
@@ -2704,25 +2704,25 @@
 #define STRMSG_C_101228_0401	"This is the space for the PET (\\gP\\gersonal \\gE\\glectronic \\gT\\goy)"
 
 #define STRMSG_C_110608_0001	"Trade Permitted, Trash Permitted, \\rWarehouse Prohibitted\\r"
-//2011-10-06 by jhahn ÆÄÆ®³Ê ¼ºÀåÇü ½Ã½ºÅÛ
+//2011-10-06 by jhahn ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½
 #define STRMSG_C_110902_0001	"Evolution Type"
 #define STRMSG_C_110907_0001	"%2.2f experience obtained."
 #define STRMSG_C_110927_0001	"Once %s is placed into the PET's Socket, it will be impossible to take out. Are you certain you wish to give this item to your PET?"
 
 #define STRMSG_C_111021_0001	"Socket for Healing Kits. This Socket is only for Evolution Type PETs. As your Evolution Type PET's level increases, more types and grades of Healing Kits will be usable. You can turn the function ON or OFF after putting it in the Quick Slot."
 #define STRMSG_C_111021_0002	"Socket for Buff skills. This Socket is only for Evolution Type PETs. As your Evolution Type PET's level increases, more buff skills will become available. You can turn the function ON or OFF after putting it in the Quick Slot."
- //end 2011-10-06 by jhahn ÆÄÆ®³Ê ¼ºÀåÇü ½Ã½ºÅÛ
+ //end 2011-10-06 by jhahn ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½
 
-// 2011-10-20 by jhahn	ÀÎÃ¦Æ® Á¦ÇÑ 
+// 2011-10-20 by jhahn	ï¿½ï¿½Ã¦Æ® ï¿½ï¿½ï¿½ï¿½ 
 #define STRMSG_C_111020_0001	"\\yItem can not be Enchanted past level 10.\\y"
 #define STRMSG_C_111020_0002	"\\yEnchant can't be processed. Please check the materials.\\y"
-//end 2011-10-20 by jhahn	ÀÎÃ¦Æ® Á¦ÇÑ 
+//end 2011-10-20 by jhahn	ï¿½ï¿½Ã¦Æ® ï¿½ï¿½ï¿½ï¿½ 
 
-// START 2011-11-03 by shcho, yedang ¼Ë´Ù¿îÁ¦ ±¸Çö
+// START 2011-11-03 by shcho, yedang ï¿½Ë´Ù¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define STRMSG_C_111109_0001	"Players under the age of 16 cannot play from 12 A.M. to 6 A.M. by the regulation of the juvenile protection."
-// END 2011-11-03 by shcho, yedang ¼Ë´Ù¿îÁ¦ ±¸Çö
+// END 2011-11-03 by shcho, yedang ï¿½Ë´Ù¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
-// 2011-11-08 by jhahn EP4 Æ®¸®°Å ½Ã½ºÅÛ ?
+// 2011-11-08 by jhahn EP4 Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½ ?
 
 #define STRMSG_C_111114_0001    "You cannot buy this item anymore."
 #define STRMSG_C_111114_0002	"This is not a tradable item."
@@ -2731,61 +2731,61 @@
 #define STRMSG_C_111114_0004	"This is not an acceptable guild."
 #define STRMSG_C_111114_0005	"The number of viewers has reached the limit."
 #define STRMSG_C_111114_0006	"Item is missing."
-//end 2011-02-08 by jhahn EP4 Æ®¸®°Å ½Ã½ºÅÛ 
-#define STRMSG_C_111223_0001	"This item is not registered."// 2011-12-23 by EP4 ¹ö±× ¼öÁ¤ - [0004975]
-#define STRMSG_C_111223_0002	"You can not enter due to an active Outpost War."// 2011-12-23 by EP4 ¹ö±× ¼öÁ¤ - [0004962]
+//end 2011-02-08 by jhahn EP4 Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½ 
+#define STRMSG_C_111223_0001	"This item is not registered."// 2011-12-23 by EP4 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ - [0004975]
+#define STRMSG_C_111223_0002	"You can not enter due to an active Outpost War."// 2011-12-23 by EP4 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ - [0004962]
 
 #define STRMSG_C_111228_0001	"Karin"
 #define STRMSG_C_111228_0002	"Ian"
 
-// 2012-01- 09 by jhahn EP4 ÆÄÆ®³Ê °æÇèÄ¡ ¹ö±× ¼öÁ¤
+// 2012-01- 09 by jhahn EP4 ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define STRMSG_C_120109_0001	"PET has obtained %2.2f experience points."
-//end 2011-01-09 by jhahn EP4 ÆÄÆ®³Ê °æÇèÄ¡ ¹ö±× ¼öÁ¤
+//end 2011-01-09 by jhahn EP4 ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 #define STRMSG_C_120402_0001	"You are not allowed to enter the map when the game begins."
 #define STRMSG_C_120402_0002	"Your influence is not allowed to enter at this time."
 
-// 2012-04-12 by mspark, ÀÎº¥Åä¸® ÀÚµ¿ Á¤·Ä
+// 2012-04-12 by mspark, ï¿½Îºï¿½ï¿½ä¸® ï¿½Úµï¿½ ï¿½ï¿½ï¿½ï¿½
 #define STRMSG_C_120412_0001	"Sort Inventory"
-// end 2012-04-12 by mspark, ÀÎº¥Åä¸® ÀÚµ¿ Á¤·Ä
+// end 2012-04-12 by mspark, ï¿½Îºï¿½ï¿½ä¸® ï¿½Úµï¿½ ï¿½ï¿½ï¿½ï¿½
 
-// 2012-04-13 by mspark, ¾Æ·¹³ª UI ÀÛ¾÷
+// 2012-04-13 by mspark, ï¿½Æ·ï¿½ï¿½ï¿½ UI ï¿½Û¾ï¿½
 #define STRMSG_C_120413_0001	"Armageddon"
 #define STRMSG_C_120413_0002	"Ragnarok"
 #define STRMSG_C_120413_0003	"Random"
-// end 2012-04-13 by mspark, ¾Æ·¹³ª UI ÀÛ¾÷
+// end 2012-04-13 by mspark, ï¿½Æ·ï¿½ï¿½ï¿½ UI ï¿½Û¾ï¿½
 
-// 2012-06-04 by mspark, ¾Æ·¹³ª ±â¾î ¼ºÇâ UI ÀÛ¾÷
+// 2012-06-04 by mspark, ï¿½Æ·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ UI ï¿½Û¾ï¿½
 #define STRMSG_C_120604_0001	"Attack type"
 #define STRMSG_C_120604_0002	"Defence type"
 #define STRMSG_C_120604_0003	"Evasion type"
-// end 2012-06-04 by mspark, ¾Æ·¹³ª ±â¾î ¼ºÇâ UI ÀÛ¾÷
+// end 2012-06-04 by mspark, ï¿½Æ·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ UI ï¿½Û¾ï¿½
 
-// 2012-07-12 by jhahn, ÆÄÆ®³Ê ¼ÒÄÏ ½ºÇÇµå Ãß°¡
+// 2012-07-12 by jhahn, ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çµï¿½ ï¿½ß°ï¿½
 #define STRMSG_C_120712_0001	"This socket can be installed on your PET to increase the rate of movement in the city. The increased rate of movement is equal to the PET's level."
-//end 2012-07-12 by jhahn, ÆÄÆ®³Ê ¼ÒÄÏ ½ºÇÇµå Ãß°¡
+//end 2012-07-12 by jhahn, ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Çµï¿½ ï¿½ß°ï¿½
 
-// 2012-07-02 by hskim, ¸ð¼±Àü °³¼± - ¸ð¼±Àü ÁøÇà½Ã ½ºÅæÁî ·çÀÎ ÁøÀÔ ºÒ°¡
+// 2012-07-02 by hskim, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ - ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ò°ï¿½
 #define STRMSG_C_120702_0001	"No admittance during a Mothership War."
-// end 2012-07-02 by hskim, ¸ð¼±Àü °³¼± - ¸ð¼±Àü ÁøÇà½Ã ½ºÅæÁî ·çÀÎ ÁøÀÔ ºÒ°¡
-// 2012-08-13 by mspark, ÀÎº¥Åä¸® ÀÚµ¿ Á¤·Ä È®ÀÎÃ¢ Ãß°¡ ÀÛ¾÷
+// end 2012-07-02 by hskim, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ - ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ò°ï¿½
+// 2012-08-13 by mspark, ï¿½Îºï¿½ï¿½ä¸® ï¿½Úµï¿½ ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½Ã¢ ï¿½ß°ï¿½ ï¿½Û¾ï¿½
 #define STRMSG_C_120813_0001	"Would you like to sort your inventory items?"
-// end 2012-08-13 by mspark, ÀÎº¥Åä¸® ÀÚµ¿ Á¤·Ä È®ÀÎÃ¢ Ãß°¡ ÀÛ¾÷
+// end 2012-08-13 by mspark, ï¿½Îºï¿½ï¿½ä¸® ï¿½Úµï¿½ ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½Ã¢ ï¿½ß°ï¿½ ï¿½Û¾ï¿½
 
-// 2012-10-13 by jhjang ÇØÇÇ¾Æ¿ö ½Ã½ºÅÛ ¸®´º¾ó
+// 2012-10-13 by jhjang ï¿½ï¿½ï¿½Ç¾Æ¿ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define STRMSG_C_121013_0001	"Formation Experience increased by %.1f%%"
 #define STRMSG_C_121013_0002	"Brigade Experience increased by %.1f%%"
 #define STRMSG_C_121013_0003	"Friend Experience increased by %.1f%%"
-// end 2012-10-13 by jhjang ÇØÇÇ¾Æ¿ö ½Ã½ºÅÛ ¸®´º¾ó
+// end 2012-10-13 by jhjang ï¿½ï¿½ï¿½Ç¾Æ¿ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 #define STRMSG_C_121013_0101	"%s (%d day, %d hour, %d min)"
 #define STRMSG_C_121013_0102	"%s (%d hour, %d min)"
 #define STRMSG_C_121013_0103	"%s (%d min)"
 #define STRMSG_C_121013_0104	"%s (less than 1min)"
 
-// 2012-10-30 by mspark, ¿ÜÇü º¯°æ °æ°í ¸Þ½ÃÁö Ãß°¡
+// 2012-10-30 by mspark, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Þ½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 #define STRMSG_C_121030_0001	"Applying a new contour kit will replace the existing contour kit. Are you sure you want to replace it?"
-// end 2012-10-30 by mspark, ¿ÜÇü º¯°æ °æ°í ¸Þ½ÃÁö Ãß°¡
+// end 2012-10-30 by mspark, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Þ½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 
 #define STRMSG_C_130108_0001	"%s joined the chat room."
 
@@ -2799,15 +2799,15 @@
 #define STRMSG_C_130222_0006 "There is chance of \\rfailure\\r when combining this recipe item."
 #define STRMSG_C_130222_0007 "A time-limited item has been used."
 
-// 2013-04-19 by ssjung ¿ÜÇü º¯°æ Å¶ °­È­ ½Ã½ºÅÛ
+// 2013-04-19 by ssjung ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Å¶ ï¿½ï¿½È­ ï¿½Ã½ï¿½ï¿½ï¿½
 #define STRMSG_C_130419_0001 "\\e+%d\\e"
 #define STRMSG_C_130419_0002 "%s %s"
 #define STRMSG_C_130419_0003 "%s(\\rContour expiration date\\r)"
 #define STRMSG_C_130419_0004 "Contour Function : %s"
 #define STRMSG_C_130419_0005 "\\y[All Stat:+%d]\\y"
-// end 2013-04-19 by ssjung ¿ÜÇü º¯°æ Å¶ °­È­ ½Ã½ºÅÛ
+// end 2013-04-19 by ssjung ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Å¶ ï¿½ï¿½È­ ï¿½Ã½ï¿½ï¿½ï¿½
 
-// 2013-04-23 by ssjung Áß¿ä ¾ÆÀÌÅÛ »èÁ¦½Ã 2Â÷ °æ°í(Áú¹®) ÆË¾÷Ã¢ ±¸Çö
+// 2013-04-23 by ssjung ï¿½ß¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 2ï¿½ï¿½ ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½) ï¿½Ë¾ï¿½Ã¢ ï¿½ï¿½ï¿½ï¿½
 #define STRMSG_C_130423_0001 "%s \\wis a \\yUnique\\y item. Are you sure you want to throw it away?"
 #define STRMSG_C_130423_0002 "%s \\wis an \\eEnchanted\\e item. Are you sure you want to throw it away?"
 #define STRMSG_C_130423_0003 "%s \\wis a \\mLegend\\m item. Are you sure you want to throw it away?"
@@ -2816,31 +2816,31 @@
 
 
 
-// 2013-05-15 by bhsohn ¼¼·ÂÆ÷ÀÎÆ® °³¼±¾È ¹öÇÁ ½Ã½ºÅÛ
+// 2013-05-15 by bhsohn ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½
 #define STRMSG_C_130520_0001	"[Attack vs. Monster"		
 #define STRMSG_C_130520_0002	"[Accuracy vs. Monster"	
 #define STRMSG_C_130520_0003	"[Pierce vs. Monster"		
 #define STRMSG_C_130520_0004	"[Defense vs. Monster"		
 #define STRMSG_C_130520_0005	"[Evasion vs. Monster"		
 #define STRMSG_C_130520_0006	"[Attack vs. PvP"		
-// END 2013-05-15 by bhsohn ¼¼·ÂÆ÷ÀÎÆ® °³¼±¾È ¹öÇÁ ½Ã½ºÅÛ
+// END 2013-05-15 by bhsohn ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½
 
-// 2013-05-09 by ssjung ¿ÜÇü º¯°æ ±â°£¸¸·á °æ°í ¸Þ½ÃÁö ±¸Çö
+// 2013-05-09 by ssjung ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½â°£ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Þ½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define STRMSG_C_130502_0001	"Contour applied to the armor is about to expire."		   
 		   
-//2013-05-20 by ssjung ÀÌ´ÞÀÇ ¾Æ¸Ó - ÀÌ´ÞÀÇ ¾Æ¸Ó ÅøÆÁ Ç¥½Ã
+//2013-05-20 by ssjung ï¿½Ì´ï¿½ï¿½ï¿½ ï¿½Æ¸ï¿½ - ï¿½Ì´ï¿½ï¿½ï¿½ ï¿½Æ¸ï¿½ ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½
 #define STRMSG_C_130516_0001	"Contour Function: \\m%s\\w %s"	
 
-// 2013-05-28 by bhsohn ¾Æ¸Ó ÄÃ·º¼Ç ½Ã½ºÅÛ
+// 2013-05-28 by bhsohn ï¿½Æ¸ï¿½ ï¿½Ã·ï¿½ï¿½ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½
 #define STRMSG_C_130529_0001	"\\yCoatings: %d\\y"
 #define STRMSG_C_130529_0002	"\\gCompleted\\g"
 #define STRMSG_C_130529_0003	"\\y(%d Days, %d Hours, %d Minutes)\\y"
 #define STRMSG_C_130529_0004	"(\\rDuration Expired\\r)"
 #define STRMSG_C_130529_0005	"\\g(Unlimited)\\g"
 #define STRMSG_C_130529_0006	"Currently selected contour: %s"
-// END 2013-05-28 by bhsohn ¾Æ¸Ó ÄÃ·º¼Ç ½Ã½ºÅÛ
+// END 2013-05-28 by bhsohn ï¿½Æ¸ï¿½ ï¿½Ã·ï¿½ï¿½ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½
 
-// 2013-06-10 by ssjung ¾Æ¸Ó ÄÃ·º¼Ç ÅøÆÁ Ç¥½Ã
+// 2013-06-10 by ssjung ï¿½Æ¸ï¿½ ï¿½Ã·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½
 #define STRMSG_C_130610_0101	"%s %d Days, %d Hours, %d Minutes"
 #define STRMSG_C_130610_0102	"%s %d Hours, %d Minutes"
 #define STRMSG_C_130610_0103	"%s %d Minutes"
@@ -2850,50 +2850,50 @@
 #define STRMSG_C_130610_0107	"Coating Count: "
 #define STRMSG_C_130617_0001	"[Increased Std. Wpn. Attack vs. Monster:+%d]"
 #define STRMSG_C_130617_0002	"[Increased Adv. Wpn. Attack vs. Monster:+%d]"
-// end 2013-06-10 by ssjung ¾Æ¸Ó ÄÃ·º¼Ç ÅøÆÁ Ç¥½Ã
+// end 2013-06-10 by ssjung ï¿½Æ¸ï¿½ ï¿½Ã·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½
 
-// 2013-06-26 by bhsohn ¾Æ¸Ó ÄÃ·º¼Ç Ãß°¡ °³¹ß
+// 2013-06-26 by bhsohn ï¿½Æ¸ï¿½ ï¿½Ã·ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define STRMSG_C_130626_0101	"%s received! Double-click the contour to add it to your Contour Collection!"
 #define STRMSG_C_130626_0102    "%s has been added to your Contour Collection! \\yCtrl+Click\\y on the armor you want to apply the contour to, and click on the Contour Collection button to open the Contour Collection window."
-// END 2013-06-26 by bhsohn ¾Æ¸Ó ÄÃ·º¼Ç Ãß°¡ °³¹ß  
+// END 2013-06-26 by bhsohn ï¿½Æ¸ï¿½ ï¿½Ã·ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½  
 
-// 2013-06-26 by ssjung ÀÎº¥Åä¸® Ãß°¡ ÅøÆÁ 
+// 2013-06-26 by ssjung ï¿½Îºï¿½ï¿½ä¸® ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½ 
 #define STRMSG_C_130613_0001	"\\yCtrl+Click in Inventory:\\y"
 #define STRMSG_C_130613_0002	"\\wContext menu\\w"
 #define STRMSG_C_130613_0003	"\\yDisplay item recipe information button\\y"
 #define STRMSG_C_130613_0004	"\\yCtrl+Click in Shop:\\y"
 #define STRMSG_C_130613_0005	"\\wSelect multiple items\\w"
-// end 2013-06-26 by ssjung ÀÎº¥Åä¸® Ãß°¡ ÅøÆÁ 
+// end 2013-06-26 by ssjung ï¿½Îºï¿½ï¿½ä¸® ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½ 
 
-// 2013-07-09 by bhsohn 70 ·¹º§ ÀÌ»ó¸¸ ¼±¹°ÇÏ±â °¡´ÉÇÏ°Ô ¼öÁ¤
+// 2013-07-09 by bhsohn 70 ï¿½ï¿½ï¿½ï¿½ ï¿½Ì»ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define STRMSG_C_130708_0001	"You must be at least level 70 to send gifts."
 
-// 2013-07-15 by ssjung Ä³³ª´Ù µ¥Ä«ÀÇ Ãàº¹, ±â¿î °ü·Ã ÅøÆÁ Ç¥½Ã
+// 2013-07-15 by ssjung Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä«ï¿½ï¿½ ï¿½àº¹, ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½
 #define STRMSG_C_130627_0001	"\\gBlessing of Decca\\g: Provides 35%% bonus EXP until expired. Regenerates while logged off."
 #define STRMSG_C_130627_0002	"\\eStrength of Decca\\e: Defeat 300 monsters without logging off to receive 35%% EXP bonus item."
-// end 2013-07-15 by ssjung Ä³³ª´Ù µ¥Ä«ÀÇ Ãàº¹, ±â¿î °ü·Ã ÅøÆÁ Ç¥½Ã
+// end 2013-07-15 by ssjung Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä«ï¿½ï¿½ ï¿½àº¹, ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½
 
-// 2013-08-02 by ssjung ¿ªÀüÀÇ ¹öÇÁ ÅøÆÁÇ¥½Ã
+// 2013-08-02 by ssjung ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¥ï¿½ï¿½
 #define STRMSG_C_130801_0001	"[Accuracy vs. PvP"
 #define STRMSG_C_130801_0002	"[Pierce vs. PvP"
 #define STRMSG_C_130801_0003	"[Defense vs. PvP" 
 #define STRMSG_C_130801_0004	"[Evasion vs. PvP"	 
-// end 2013-08-02 by ssjung ¿ªÀüÀÇ ¹öÇÁ ÅøÆÁÇ¥½Ã
+// end 2013-08-02 by ssjung ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¥ï¿½ï¿½
 
-// 2013-08-13 by ssjung ¾Æ·¹³ª 25ÀÌ»óÀÏ ¶§ »ç¿ë °¡´ÉÇÏµµ·Ï ¼öÁ¤
+// 2013-08-13 by ssjung ï¿½Æ·ï¿½ï¿½ï¿½ 25ï¿½Ì»ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define STRMSG_C_130813_0001	"You must be at least level 25 to use the Arena."
 
-// 2013-08-14 by ssjung Ä³³ª´Ù ÀÎº¥Åä¸®¾ÈÀÇ SPI, WP ÅøÆÁ Ç¥½Ã
+// 2013-08-14 by ssjung Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½Îºï¿½ï¿½ä¸®ï¿½ï¿½ï¿½ï¿½ SPI, WP ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½
 #define STRMSG_C_130814_0001	"\\gSPI\\g is the primary currency used in ACE Online."
 #define STRMSG_C_130814_0002	"\\eWar Points\\e are special currency gained by competing in the Arena and taking part in PvP gameplay."
-// end2013-08-14 by ssjung Ä³³ª´Ù ÀÎº¥Åä¸®¾ÈÀÇ SPI, WP ÅøÆÁ Ç¥½Ã
+// end2013-08-14 by ssjung Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½Îºï¿½ï¿½ä¸®ï¿½ï¿½ï¿½ï¿½ SPI, WP ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½
 
-// 2013-08-23 by ssjung °ÅÁ¡Àü ¸®´º¾ó
+// 2013-08-23 by ssjung ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define STRMSG_C_130823_0001	"SP War"
 #define STRMSG_C_130823_0002	"In Progress"
-// end 2013-08-23 by ssjung °ÅÁ¡Àü ¸®´º¾ó
+// end 2013-08-23 by ssjung ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-// 2013-08-22 by bhsohn ÇØÇÇ¾Æ¿ö ¸®´º¾ó - happy hour types
+// 2013-08-22 by bhsohn ï¿½ï¿½ï¿½Ç¾Æ¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ - happy hour types
 #define STRMSG_C_130822_0001	"Energy recovery increased by %.0f%%"	
 #define STRMSG_C_130822_0002	"Shield recovery increased by %.0f%%"	
 #define STRMSG_C_130822_0003	"SP recovery increased by %.0f%%"	
@@ -2902,35 +2902,35 @@
 #define STRMSG_C_130822_0006	"Radar and engine enchant probability increased by %.0f%%"	
 #define STRMSG_C_130822_0007	"SPI shop item price decreased by %.0f%%"	
 #define STRMSG_C_130822_0008	"WP shop item price decreased by %.0f%%"	
-// END 2013-08-22 by bhsohn ÇØÇÇ¾Æ¿ö ¸®´º¾ó 
+// END 2013-08-22 by bhsohn ï¿½ï¿½ï¿½Ç¾Æ¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 
 
-// 2013-08-27 by bhsohn ¹Ì¼Ç ÇÁ¸® ÆÐ½º ½Ã½ºÅÛ - item to bypass missions
+// 2013-08-27 by bhsohn ï¿½Ì¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ð½ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½ - item to bypass missions
 #define STRMSG_C_130827_0001	"[%s] will be used to complete the current mission.  Proceed?"	
 #define STRMSG_C_130827_0002	"Incorrect item level to complete mission."
 #define STRMSG_C_130827_0003	"Cannot use selected item."
 #define STRMSG_C_130827_0004	"No mission in progress."
-// END 2013-08-27 by bhsohn ¹Ì¼Ç ÇÁ¸® ÆÐ½º ½Ã½ºÅÛ
+// END 2013-08-27 by bhsohn ï¿½Ì¼ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ð½ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½
 
-// 2013-08-28 by ssjung °ÅÁ¡Àü ¸®´º¾ó(NGC) - NGC strategic point
+// 2013-08-28 by ssjung ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(NGC) - NGC strategic point
 #define STRMSG_C_130828_0001	"NGC"
 #define STRMSG_C_130828_0002	"Cannot enter while NGC Strategic Point war is in progress."
-// end 2013-08-28 by ssjung °ÅÁ¡Àü ¸®´º¾ó(NGC)
+// end 2013-08-28 by ssjung ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(NGC)
 
-// 2013-09-02 by ssjung ÇÊµåÀÌµ¿±ÝÁö¾ÆÀÌÅÛ
+// 2013-09-02 by ssjung ï¿½Êµï¿½ï¿½Ìµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define STRMSG_C_130902_0001	"Flight Lockdown engaged by Nation Leader. Cannot leave city."
 #define STRMSG_C_130902_0002	"Input character name to restrict to city:"
-// end 2013-09-02 by ssjung ÇÊµåÀÌµ¿±ÝÁö¾ÆÀÌÅÛ
+// end 2013-09-02 by ssjung ï¿½Êµï¿½ï¿½Ìµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-// 2013-09-09 by ssjung ÀÌ´ÞÀÇ ¾Æ¸Ó - ÀÌ´ÞÀÇ ¾Æ¸Ó ÅøÆÁ Ç¥½Ã(Ãß°¡¼öÁ¤)
+// 2013-09-09 by ssjung ï¿½Ì´ï¿½ï¿½ï¿½ ï¿½Æ¸ï¿½ - ï¿½Ì´ï¿½ï¿½ï¿½ ï¿½Æ¸ï¿½ ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½(ï¿½ß°ï¿½ï¿½ï¿½ï¿½ï¿½)
 #define STRMSG_C_130909_0001	"Special buff duration: \\m%s\\w %s"	
 	
-// 2013-09-26 by ssjung ¿£Áø ÀÎÃ¾Æ®½Ã °æ°í ¸Þ½ÃÁö Ãâ·Â
+// 2013-09-26 by ssjung ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¾Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Þ½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 #define STRMSG_C_130926_0001	"During enchanting, there is a risk the enchanted item will be destroyed during the process."
 
 // Related to mantis #1257
 #define STRMSG_C_131115_0001 	"Cannot use skills while Silenced."
 // Related to mantis #1257
-// 2013-12-05 by ymjoo °Å·¡¼Ò ±¸Çö ½ºÆ®¸µ
+// 2013-12-05 by ymjoo ï¿½Å·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ®ï¿½ï¿½
 #define STRMSG_C_131205_0001	"Entirety"
 #define STRMSG_C_131205_0002	"Weapon"
 #define STRMSG_C_131205_0003	"Standard Weapon"
@@ -2987,14 +2987,14 @@
 #define STRMSG_C_131205_0054	"Failed to recall. Please try again. "
 #define STRMSG_C_131205_0055	"Recalled"
 #define STRMSG_C_131205_0056	"Money withdrawn"
-// END 2013-12-05 by ymjoo °Å·¡¼Ò ±¸Çö ½ºÆ®¸µ
+// END 2013-12-05 by ymjoo ï¿½Å·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ®ï¿½ï¿½
 
-// 2013-12-05 by ymjoo °Å·¡¼Ò ±¸Çö ½ºÆ®¸µ
+// 2013-12-05 by ymjoo ï¿½Å·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ®ï¿½ï¿½
 #define STRMSG_C_131206_0001	"You bought the item successfully.\\nThe item will be sent to your inventory. "
 
 #define STRMSG_C_131206_0002	"\\y %d of War Point has decreased."
 
-// 2013-11-29 by ssjung °Å·¡¼Ò ±¸Çö
+// 2013-11-29 by ssjung ï¿½Å·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define STRMSG_C_131217_0001	"You have exceeded the number of items to be registered."
 #define STRMSG_C_131217_0002	"It's sold out."
 #define STRMSG_C_131217_0003	"You can't buy due to insufficient funds."
@@ -3004,9 +3004,9 @@
 #define STRMSG_C_131217_0007	"You can't recall because of insufficient inventory space."
 #define STRMSG_C_131217_0008	"Recall fees : SPI(%.1f%%), WP(%.1f%%)"
 #define STRMSG_C_131217_0009	"Please update the list of items at the trade shop."
-// end 2013-11-29 by ssjung °Å·¡¼Ò ±¸Çö
+// end 2013-11-29 by ssjung ï¿½Å·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
-// 2014-01-15 by ssjung ÆÄ±« °æ¸ÅÀå ±¸Çö
+// 2014-01-15 by ssjung ï¿½Ä±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define STRMSG_C_140121_0001	"Auction finished"
 #define STRMSG_C_140121_0002	"Bids"
 #define STRMSG_C_140121_0003	"You're bidding with the highest bidding price. "
@@ -3024,25 +3024,25 @@
 #define STRMSG_C_140121_0015	"You can't recall the item due to  of insufficient inventory space. "
 #define STRMSG_C_140121_0016	"\\rHigher price of bid was submitted\\r"
 
-// end 2014-01-15 by ssjung ÆÄ±« °æ¸ÅÀå ±¸Çö
+// end 2014-01-15 by ssjung ï¿½Ä±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
-// 2014-02-10 by ymjoo ÀÔÈÄº¸ÀÚ, ÁöµµÀÚ, ÀüÁø±âÁö ¿©´ÜÀå ¿©´Ü À§ÀÓ ¾ÈµÇ´Â ½ºÆ®¸µ Ãß°¡
+// 2014-02-10 by ymjoo ï¿½ï¿½ï¿½Äºï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ÈµÇ´ï¿½ ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ß°ï¿½
 #define STRMSG_C_140210_0001	"Cannot disband brigade or delegate leadership while you are an election candidate."
 #define STRMSG_C_140210_0002	"Nation leaders and Outpost owners cannot disband the brigade or delegate leadership."
-// END 2014-02-10 by ymjoo ÀÔÈÄº¸ÀÚ, ÁöµµÀÚ, ÀüÁø±âÁö ¿©´ÜÀå ¿©´Ü À§ÀÓ ¾ÈµÇ´Â ½ºÆ®¸µ Ãß°¡
-// 2014-02-07 by ymjoo Ä¸½¶Çü Ä³½Ã ¾ÆÀÌÅÛ °æ°í ¸Þ¼¼Áö
+// END 2014-02-10 by ymjoo ï¿½ï¿½ï¿½Äºï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ÈµÇ´ï¿½ ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ß°ï¿½
+// 2014-02-07 by ymjoo Ä¸ï¿½ï¿½ï¿½ï¿½ Ä³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Þ¼ï¿½ï¿½ï¿½
 #define STRMSG_C_140210_0003	"Once you open %s, exchange or refund will not be available.\\nWould you still like to open it?"
-// END 2014-02-07 by ymjoo Ä¸½¶Çü Ä³½Ã ¾ÆÀÌÅÛ °æ°í ¸Þ¼¼Áö
+// END 2014-02-07 by ymjoo Ä¸ï¿½ï¿½ï¿½ï¿½ Ä³ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Þ¼ï¿½ï¿½ï¿½
 														  
-// 2014-02-10 by ssjung, ¹ö±× Æ®·¦
+// 2014-02-10 by ssjung, ï¿½ï¿½ï¿½ï¿½ Æ®ï¿½ï¿½
 #define STRMSG_C_140218_0001	"ACEOnline' has closed abnormally."
 #define STRMSG_C_140218_0002	"It will be a great help to solve this error if you send the information of your PC's condition through the 'Send' button below.";
 #define STRMSG_C_140218_0003	"Send"
 #define STRMSG_C_140218_0004	"Close"
 #define STRMSG_C_140218_0005	"Sent" 
-// end 2014-02-10 by ssjung, ¹ö±× Æ®·¦
+// end 2014-02-10 by ssjung, ï¿½ï¿½ï¿½ï¿½ Æ®ï¿½ï¿½
 
-// 2014-06-10 by ymjoo ¼¼·Â º¯°æ ¾ÆÀÌÅÛ
+// 2014-06-10 by ymjoo ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #define STRMSG_C_140610_0001	"Your nation will change. Would you really like to use it?"
 #define STRMSG_C_140610_0002	"Users who belong to brigades can't use it."
 #define STRMSG_C_140610_0003	"Users of the losing nation can't use it."
@@ -3052,33 +3052,33 @@
 #define STRMSG_C_140610_0007	"A gear which doesn't satisfy the usage condition exists in the account."
 #define STRMSG_C_140610_0008	"Not for trading."
 #define STRMSG_C_140610_0009	"Neutral nation can't use it."
-// END 2014-06-10 by ymjoo ¼¼·Â º¯°æ ¾ÆÀÌÅÛ
+// END 2014-06-10 by ymjoo ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-// 2014-06-12 by ymjoo ÆÄ±« °æ¸ÅÀå Ãß°¡ÀÛ¾÷
+// 2014-06-12 by ymjoo ï¿½Ä±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½Û¾ï¿½
 #define STRMSG_C_140612_0001	"Auction has started."
 #define STRMSG_C_140612_0002	"Auction has finished."
 #define STRMSG_C_140612_0003	"The information isn't updated. Please press the refresh button."
-// END 2014-06-12 by ymjoo ÆÄ±« °æ¸ÅÀå Ãß°¡ÀÛ¾÷
+// END 2014-06-12 by ymjoo ï¿½Ä±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½Û¾ï¿½
 
-// 2014-06-18 by ymjoo È­¸é »ó´Ü¿¡ ¼¼·Â Ç¥½Ã
+// 2014-06-18 by ymjoo È­ï¿½ï¿½ ï¿½ï¿½Ü¿ï¿½ ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½
 #define STRMSG_C_140619_0000	"Neutral nation"
 #define STRMSG_C_140619_0001	"Winning Nation"
 #define STRMSG_C_140619_0002	"Losing Nation"
-// END 2014-06-18 by ymjoo È­¸é »ó´Ü¿¡ ¼¼·Â Ç¥½Ã
+// END 2014-06-18 by ymjoo È­ï¿½ï¿½ ï¿½ï¿½Ü¿ï¿½ ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½
 
-// 2014-07-04 by ymjoo ÁöÇü ÀÌÆåÆ® µðÅ×ÀÏ ¿É¼Ç º¯°æ (ON/OFF)
+// 2014-07-04 by ymjoo ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½É¼ï¿½ ï¿½ï¿½ï¿½ï¿½ (ON/OFF)
 #define STRMSG_C_140704_0000	"OFF"
 #define STRMSG_C_140704_0001	"ON"
-// END 2014-07-04 by ymjoo ÁöÇü ÀÌÆåÆ® µðÅ×ÀÏ ¿É¼Ç º¯°æ (ON/OFF)
+// END 2014-07-04 by ymjoo ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½É¼ï¿½ ï¿½ï¿½ï¿½ï¿½ (ON/OFF)
 
 
-// 2014-07-18 by ymjoo ÇÁ¸®¹Ì¾ö ¾Æ¸ÓÄÃ·º¼Ç ±¸Çö
+// 2014-07-18 by ymjoo ï¿½ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½ ï¿½Æ¸ï¿½ï¿½Ã·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 #define STRMSG_C_140718_0000	"[EXP:+%d%%]"
 #define STRMSG_C_140718_0001	"[Drop rate of item:+%d%%]"
-// END 2014-07-18 by ymjoo ÇÁ¸®¹Ì¾ö ¾Æ¸ÓÄÃ·º¼Ç ±¸Çö
+// END 2014-07-18 by ymjoo ï¿½ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½ ï¿½Æ¸ï¿½ï¿½Ã·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
-// 2014-07-30 by ymjoo ¸®¼Ò½º ÆÄÀÏ ·Îµù ¹®Á¦ ¸®¼Ò½º ÀÌ¸§ Ãâ·Â
+// 2014-07-30 by ymjoo ï¿½ï¿½ï¿½Ò½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Îµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ò½ï¿½ ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½
 #define STRMSG_C_140730_0000	"Creation of object has been stopped due to problems of resource file while loading. [%s][%d]"
-// END 2014-07-30 by ymjoo ¸®¼Ò½º ÆÄÀÏ ·Îµù ¹®Á¦ ¸®¼Ò½º ÀÌ¸§ Ãâ·Â
+// END 2014-07-30 by ymjoo ï¿½ï¿½ï¿½Ò½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Îµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ò½ï¿½ ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½
 
 #endif
