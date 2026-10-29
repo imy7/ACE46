@@ -10,31 +10,31 @@
 #include "SceneData.h"
 #include "MonsterData.h"
 #include "dxutil.h"
-#include "INFImageEx.h"	// 2011. 10. 10 by jskim UI½Ã½ºÅÛ º¯°æ
+#include "INFImageEx.h"	// 2011. 10. 10 by jskim UIì‹œìŠ¤í…œ ë³€ê²½
 
 //////////////////////////////////////////////////////////////////////
 // Construction/Destruction
 //////////////////////////////////////////////////////////////////////
 
-#define DAMAGE_VIEW_STEP	10	// ÀÌ¹ÌÁö¸¦ ¾ğÁ¦±îÁö º¸¿©ÁÙ°ÍÀÎ°¡
+#define DAMAGE_VIEW_STEP	10	// ì´ë¯¸ì§€ë¥¼ ì–¸ì œê¹Œì§€ ë³´ì—¬ì¤„ê²ƒì¸ê°€
 #define DAMAGE_VIEW_TIMER	0.1f
 
-// 2009. 11. 02 by ckPark ÀÎÇÇ´ÏÆ¼ ÇÊµå ÀÎ½ºÅÏ½º ´øÁ¯ ½Ã½ºÅÛ
+// 2009. 11. 02 by ckPark ì¸í”¼ë‹ˆí‹° í•„ë“œ ì¸ìŠ¤í„´ìŠ¤ ë˜ì ¼ ì‹œìŠ¤í…œ
 #define DAMAGE_X_MOVE_MIN	50.0f
 #define DAMAGE_X_MOVE_MAX	70.0f
 #define DAMAGE_Y_MOVE_MIN	80.0f
 #define DAMAGE_Y_MOVE_MAX	130.0f
 #define DAMAGE_Y_GRAVITY	80.0f
-// end 2009. 11. 02 by ckPark ÀÎÇÇ´ÏÆ¼ ÇÊµå ÀÎ½ºÅÏ½º ´øÁ¯ ½Ã½ºÅÛ
+// end 2009. 11. 02 by ckPark ì¸í”¼ë‹ˆí‹° í•„ë“œ ì¸ìŠ¤í„´ìŠ¤ ë˜ì ¼ ì‹œìŠ¤í…œ
 
 CINFDamageView::CINFDamageView()
 {
 	m_pNormal		= NULL;
 	m_pCritical		= NULL;
 	m_pMiss			= NULL;
-	// 2010-11-01 by jskim, Æê µ¥¹ÌÁö View º¯°æ
+	// 2010-11-01 by jskim, í« ë°ë¯¸ì§€ View ë³€ê²½
 	m_pPet			= NULL;
-	// ebd 2010-11-01 by jskim, Æê µ¥¹ÌÁö View º¯°æ		
+	// ebd 2010-11-01 by jskim, í« ë°ë¯¸ì§€ View ë³€ê²½		
 	m_fTickTimer	= DAMAGE_VIEW_TIMER;
 }
 
@@ -43,9 +43,9 @@ CINFDamageView::~CINFDamageView()
 	SAFE_DELETE(m_pNormal);		
 	SAFE_DELETE(m_pCritical);		
 	SAFE_DELETE(m_pMiss);
-	// 2010-11-01 by jskim, Æê µ¥¹ÌÁö View º¯°æ
+	// 2010-11-01 by jskim, í« ë°ë¯¸ì§€ View ë³€ê²½
 	SAFE_DELETE(m_pPet);
-	// ebd 2010-11-01 by jskim, Æê µ¥¹ÌÁö View º¯°æ		
+	// ebd 2010-11-01 by jskim, í« ë°ë¯¸ì§€ View ë³€ê²½		
 }
 
 HRESULT CINFDamageView::InitDeviceObjects()
@@ -69,14 +69,14 @@ HRESULT CINFDamageView::InitDeviceObjects()
 		m_pMiss = new CINFImageEx;
 		m_pMiss->InitDeviceObjects( pDataHeader );
 	}
-	// 2010-11-01 by jskim, Æê µ¥¹ÌÁö View º¯°æ
+	// 2010-11-01 by jskim, í« ë°ë¯¸ì§€ View ë³€ê²½
 	pDataHeader = m_pGameData->Find( "P_DgNormal" );
 	if(pDataHeader)
 	{
 		m_pPet = new CINFImageEx;
 		m_pPet->InitDeviceObjects( pDataHeader);
 	}
-	// ebd 2010-11-01 by jskim, Æê µ¥¹ÌÁö View º¯°æ		
+	// ebd 2010-11-01 by jskim, í« ë°ë¯¸ì§€ View ë³€ê²½		
 	
 	return S_OK;
 }
@@ -86,9 +86,9 @@ HRESULT CINFDamageView::RestoreDeviceObjects()
 	m_pNormal->RestoreDeviceObjects();
 	m_pCritical->RestoreDeviceObjects();
 	m_pMiss->RestoreDeviceObjects();
-	// 2010-11-01 by jskim, Æê µ¥¹ÌÁö View º¯°æ
+	// 2010-11-01 by jskim, í« ë°ë¯¸ì§€ View ë³€ê²½
 	m_pPet->RestoreDeviceObjects();
-	// end 2010-11-01 by jskim, Æê µ¥¹ÌÁö View º¯°æ
+	// end 2010-11-01 by jskim, í« ë°ë¯¸ì§€ View ë³€ê²½
 
 	return S_OK;
 }
@@ -98,9 +98,9 @@ HRESULT CINFDamageView::InvalidateDeviceObjects()
 	m_pNormal->InvalidateDeviceObjects();
 	m_pCritical->InvalidateDeviceObjects();
 	m_pMiss->InvalidateDeviceObjects();
-	// 2010-11-01 by jskim, Æê µ¥¹ÌÁö View º¯°æ
+	// 2010-11-01 by jskim, í« ë°ë¯¸ì§€ View ë³€ê²½
 	m_pPet->InvalidateDeviceObjects();
-	// end 2010-11-01 by jskim, Æê µ¥¹ÌÁö View º¯°æ
+	// end 2010-11-01 by jskim, í« ë°ë¯¸ì§€ View ë³€ê²½
 	return S_OK;
 }
 
@@ -110,15 +110,15 @@ HRESULT CINFDamageView::DeleteDeviceObjects()
 	m_pNormal->DeleteDeviceObjects();
 	m_pCritical->DeleteDeviceObjects();
 	m_pMiss->DeleteDeviceObjects();
-	// 2010-11-01 by jskim, Æê µ¥¹ÌÁö View º¯°æ
+	// 2010-11-01 by jskim, í« ë°ë¯¸ì§€ View ë³€ê²½
 	m_pPet->DeleteDeviceObjects();
-	// end 2010-11-01 by jskim, Æê µ¥¹ÌÁö View º¯°æ
+	// end 2010-11-01 by jskim, í« ë°ë¯¸ì§€ View ë³€ê²½
 	SAFE_DELETE(m_pNormal);
 	SAFE_DELETE(m_pCritical);
 	SAFE_DELETE(m_pMiss);
-	// 2010-11-01 by jskim, Æê µ¥¹ÌÁö View º¯°æ
+	// 2010-11-01 by jskim, í« ë°ë¯¸ì§€ View ë³€ê²½
 	SAFE_DELETE(m_pPet);
-	// end 2010-11-01 by jskim, Æê µ¥¹ÌÁö View º¯°æ
+	// end 2010-11-01 by jskim, í« ë°ë¯¸ì§€ View ë³€ê²½
 	return S_OK;
 }
 
@@ -134,9 +134,9 @@ HRESULT CINFDamageView::DeleteDeviceObjects()
 void CINFDamageView::Render()
 {
 	FLOG( "CINFDamageView::Render()" );
-    // 2011. 03. 08 by jskim ÀÎÇÇ3Â÷ ±¸Çö
+    // 2011. 03. 08 by jskim ì¸í”¼3ì°¨ êµ¬í˜„
 	int x, y, w;
-    // end 2011. 03. 08 by jskim ÀÎÇÇ3Â÷ ±¸Çö
+    // end 2011. 03. 08 by jskim ì¸í”¼3ì°¨ êµ¬í˜„
 	
 	float scale = IMAGE_SCALE;
 
@@ -148,7 +148,7 @@ void CINFDamageView::Render()
 		CUnitData* pUnit = g_pScene->FindUnitDataByClientIndex( it->TargetIndex );
 
 		
-		// 2011. 03. 08 by jskim ÀÎÇÇ3Â÷ ±¸Çö - ³Í Å¸°Ù ½Ã½ºÅÛ
+		// 2011. 03. 08 by jskim ì¸í”¼3ì°¨ êµ¬í˜„ - ë„Œ íƒ€ê²Ÿ ì‹œìŠ¤í…œ
 		// (pUnit &&
 		//	pUnit->m_nObjScreenW > 0.0f)
 		//{
@@ -156,11 +156,11 @@ void CINFDamageView::Render()
 		//y = UIFromPixels(pUnit->m_nObjScreenY);
 		if( pUnit )
 		{
-			// 2011. 09. 28 by jskim ³Í Å¸°Ù ½Ã½ºÅÛ ¹ö±× ¼öÁ¤( ÄÉ½ºÆÃ ¹®Á¦ )
+			// 2011. 09. 28 by jskim ë„Œ íƒ€ê²Ÿ ì‹œìŠ¤í…œ ë²„ê·¸ ìˆ˜ì •( ì¼€ìŠ¤íŒ… ë¬¸ì œ )
 			if(pUnit &&
 				pUnit->m_dwPartType == _MONSTER &&
 				((CMonsterData*)pUnit)->m_vecvmultiData.size() > 0)
-			// end 2011. 09. 28 by jskim ³Í Å¸°Ù ½Ã½ºÅÛ ¹ö±× ¼öÁ¤( ÄÉ½ºÆÃ ¹®Á¦ )
+			// end 2011. 09. 28 by jskim ë„Œ íƒ€ê²Ÿ ì‹œìŠ¤í…œ ë²„ê·¸ ìˆ˜ì •( ì¼€ìŠ¤íŒ… ë¬¸ì œ )
 			{
 				D3DXVECTOR3 temp = ((CMonsterData*)pUnit)->GetMultiPos((*it).nMultiIndex);
 				((CMonsterData*)pUnit)->GetScreenPos(temp, x, y, w);
@@ -171,7 +171,7 @@ void CINFDamageView::Render()
 				x = UIFromPixels(pUnit->m_nObjScreenX);
 				y = UIFromPixels(pUnit->m_nObjScreenY);
 			}
-			// end . 03. 08 by jskim ÀÎÇÇ3Â÷ ±¸Çö - ³Í Å¸°Ù ½Ã½ºÅÛ
+			// end . 03. 08 by jskim ì¸í”¼3ì°¨ êµ¬í˜„ - ë„Œ íƒ€ê²Ÿ ì‹œìŠ¤í…œ
 
 			DWORD dwColor = 0x00FFFFFF;
 			DWORD alpha = 0;
@@ -209,14 +209,14 @@ void CINFDamageView::Render()
 					}
 				}
 				break;
-			// 2010-11-01 by jskim, Æê µ¥¹ÌÁö View º¯°æ
+			// 2010-11-01 by jskim, í« ë°ë¯¸ì§€ View ë³€ê²½
 			case DAMAGEKIND_PET:
 				{
 					vector<int>::iterator itl = it->vecDamageView.begin();
 					while(itl != it->vecDamageView.end())
 					{
-                        m_pNormal->Move(
-                            x + wideTemp, 
+                        m_pPet->Move(
+                            x + wideTemp,
                             y - ((*it).fTimer * SHOW_SPEED * scale) - (Y_START_POS * scale)
                         );
 						m_pPet->SetScale(scale, scale);
@@ -228,10 +228,10 @@ void CINFDamageView::Render()
 					}
 				}
 				break;
-			// end 2010-11-01 by jskim, Æê µ¥¹ÌÁö View º¯°æ
+			// end 2010-11-01 by jskim, í« ë°ë¯¸ì§€ View ë³€ê²½
 
-			// 2009. 11. 02 by ckPark ÀÎÇÇ´ÏÆ¼ ÇÊµå ÀÎ½ºÅÏ½º ´øÁ¯ ½Ã½ºÅÛ
-			// Ãß°¡ µ¥¹ÌÁö Å¸ÀÔ
+			// 2009. 11. 02 by ckPark ì¸í”¼ë‹ˆí‹° í•„ë“œ ì¸ìŠ¤í„´ìŠ¤ ë˜ì ¼ ì‹œìŠ¤í…œ
+			// ì¶”ê°€ ë°ë¯¸ì§€ íƒ€ì…
 			case DAMAGEKIND_ADD_DAMAGE:
 				{
 					float fElapseTime = g_pD3dApp->GetElapsedTime();
@@ -259,10 +259,10 @@ void CINFDamageView::Render()
 					}
 				}
 				break;
-			// end 2009. 11. 02 by ckPark ÀÎÇÇ´ÏÆ¼ ÇÊµå ÀÎ½ºÅÏ½º ´øÁ¯ ½Ã½ºÅÛ
+			// end 2009. 11. 02 by ckPark ì¸í”¼ë‹ˆí‹° í•„ë“œ ì¸ìŠ¤í„´ìŠ¤ ë˜ì ¼ ì‹œìŠ¤í…œ
 			
 
-			// 2010. 02. 11 by ckPark ¹ßµ¿·ù ÀåÂø¾ÆÀÌÅÛ
+			// 2010. 02. 11 by ckPark ë°œë™ë¥˜ ì¥ì°©ì•„ì´í…œ
 			case DAMAGEKIND_REFLECTION:
 			{
 				vector<int>::iterator itl = it->vecDamageView.begin();
@@ -280,7 +280,7 @@ void CINFDamageView::Render()
 					itl++;
 				}
 			}
-			break;			// end 2010. 02. 11 by ckPark ¹ßµ¿·ù ÀåÂø¾ÆÀÌÅÛ
+			break;			// end 2010. 02. 11 by ckPark ë°œë™ë¥˜ ì¥ì°©ì•„ì´í…œ
 
 			case DAMAGEKIND_CRITICAL:
 			{
@@ -334,18 +334,18 @@ void CINFDamageView::Tick()
 }
 ///////////////////////////////////////////////////////////////////////////////
 /// \fn			CINFDamageView::RecvBattleShowDamage(ClientIndex_t	TIndex, int nDamage, int nDKind)
-/// \brief		È­¸é¿¡ µ¥¹ÌÁö ·® Ç¥½Ã
+/// \brief		í™”ë©´ì— ë°ë¯¸ì§€ ëŸ‰ í‘œì‹œ
 /// \author		dhkwon
 /// \date		2004-11-17 ~ 2004-11-17
-/// \warning	ÇöÀç Critical Damage´Â ShuttleChildÀÇ µ¥¹ÌÁö¸¦ º¸¿©ÁÖ´Â °ÍÀ¸·Î ´ëÃ¼µÇ¾î ÀÖ´Ù.
-///				³ªÁß¿¡ ¹Ù²Ü°Í.
+/// \warning	í˜„ì¬ Critical DamageëŠ” ShuttleChildì˜ ë°ë¯¸ì§€ë¥¼ ë³´ì—¬ì£¼ëŠ” ê²ƒìœ¼ë¡œ ëŒ€ì²´ë˜ì–´ ìˆë‹¤.
+///				ë‚˜ì¤‘ì— ë°”ê¿€ê²ƒ.
 /// \param		
 /// \return		
 ///////////////////////////////////////////////////////////////////////////////
-// 2011. 03. 08 by jskim ÀÎÇÇ3Â÷ ±¸Çö - ³Í Å¸°Ù ½Ã½ºÅÛ
+// 2011. 03. 08 by jskim ì¸í”¼3ì°¨ êµ¬í˜„ - ë„Œ íƒ€ê²Ÿ ì‹œìŠ¤í…œ
 //void CINFDamageView::RecvBattleShowDamage(ClientIndex_t	TIndex, int nDamage, int nDKind)
 void CINFDamageView::RecvBattleShowDamage(ClientIndex_t TIndex, int nDamage, int nDKind, USHORT MultiTargetIndex /* =/* = NULL */)
-// end 2011. 03. 08 by jskim ÀÎÇÇ3Â÷ ±¸Çö - ³Í Å¸°Ù ½Ã½ºÅÛ
+// end 2011. 03. 08 by jskim ì¸í”¼3ì°¨ êµ¬í˜„ - ë„Œ íƒ€ê²Ÿ ì‹œìŠ¤í…œ
 {
 	char buf[32];
 	char cTemp[2];
@@ -357,35 +357,35 @@ void CINFDamageView::RecvBattleShowDamage(ClientIndex_t TIndex, int nDamage, int
 	tempView.TargetIndex		= TIndex;
 	tempView.fTimer				= 0;
 
-	// 2009. 11. 02 by ckPark ÀÎÇÇ´ÏÆ¼ ÇÊµå ÀÎ½ºÅÏ½º ´øÁ¯ ½Ã½ºÅÛ
+	// 2009. 11. 02 by ckPark ì¸í”¼ë‹ˆí‹° í•„ë“œ ì¸ìŠ¤í„´ìŠ¤ ë˜ì ¼ ì‹œìŠ¤í…œ
 	tempView.fVerticalSpeed		= 0.0f;
 	tempView.fHorizontallySpeed	= 0.0f;
 	tempView.x					= 0.0f;
 	tempView.y					= 0.0f;
 
-	// 2011. 03. 08 by jskim ÀÎÇÇ3Â÷ ±¸Çö - ³Í Å¸°Ù ½Ã½ºÅÛ
+	// 2011. 03. 08 by jskim ì¸í”¼3ì°¨ êµ¬í˜„ - ë„Œ íƒ€ê²Ÿ ì‹œìŠ¤í…œ
 	tempView.nMultiIndex		= MultiTargetIndex;
-	// end 2011. 03. 08 by jskim ÀÎÇÇ3Â÷ ±¸Çö - ³Í Å¸°Ù ½Ã½ºÅÛ
+	// end 2011. 03. 08 by jskim ì¸í”¼3ì°¨ êµ¬í˜„ - ë„Œ íƒ€ê²Ÿ ì‹œìŠ¤í…œ
 
-	// Ãß°¡ µ¥¹ÌÁö Å¸ÀÔÀÏ °æ¿ì
+	// ì¶”ê°€ ë°ë¯¸ì§€ íƒ€ì…ì¼ ê²½ìš°
 	if( nDKind == DAMAGEKIND_ADD_DAMAGE )
 	{
-		// xÃà ÀÌµ¿ ¹æÇâ(ÁÂ, ¿ì)
+		// xì¶• ì´ë™ ë°©í–¥(ì¢Œ, ìš°)
 		static bool bLeft = true;
 		if( bLeft )
 			bLeft = false;
 		else
 			bLeft = true;
 
-		// xÃà ÀÌµ¿ ¼Óµµ
+		// xì¶• ì´ë™ ì†ë„
 		tempView.fHorizontallySpeed	= RANDF2( DAMAGE_X_MOVE_MIN, DAMAGE_X_MOVE_MAX );
-		// ÁÂÃø ÀÌµ¿ÀÏ °æ¿ì ¼Óµµ ¸¶ÀÌ³Ê½º
+		// ì¢Œì¸¡ ì´ë™ì¼ ê²½ìš° ì†ë„ ë§ˆì´ë„ˆìŠ¤
 		if( bLeft )
 			tempView.fHorizontallySpeed	= -tempView.fHorizontallySpeed;
-		// yÃà ÀÌµ¿ ¼Óµµ
+		// yì¶• ì´ë™ ì†ë„
 		tempView.fVerticalSpeed		= RANDF2( DAMAGE_Y_MOVE_MIN, DAMAGE_Y_MOVE_MAX );
 	}
-	// end 2009. 11. 02 by ckPark ÀÎÇÇ´ÏÆ¼ ÇÊµå ÀÎ½ºÅÏ½º ´øÁ¯ ½Ã½ºÅÛ
+	// end 2009. 11. 02 by ckPark ì¸í”¼ë‹ˆí‹° í•„ë“œ ì¸ìŠ¤í„´ìŠ¤ ë˜ì ¼ ì‹œìŠ¤í…œ
 
 	wsprintf(buf, "%d", nDamage);
 	int loopcount = strlen(buf);
